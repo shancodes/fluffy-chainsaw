@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mortgage Calculator</title>
+        <link href="styles.css" rel="stylesheet"/>
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="main">
+            
+            <h1>Mortgage Calculator</h1>
+            <hr>
+            <form>
+                <div class="mc-1">
+                    <label for="amount" class="form-label">Total Amount:</label>
+                    <input class="form-control" type="number" id="amount" name="amount" required>
+                </div>
+
+                <div class="mc-1">
+                    <label for="interest" class="form-label">Interest</label>
+                    <input class="form-control" type="number" id="interest" name="interest" required>
+                </div>
+
+                <div class="mc-1">
+                    <label for="years" class="form-label">No of Years</label>
+                    <input class="form-control" type="number" id="years" name="years" required>
+                </div>
+
+                <button type="button" onclick="calculateMortgagePayment()">Calculate Mortgage</button>
+
+
+            </form>
+            <div id="result"></div>
+        </div>
+ 
+    </body>
+</html>

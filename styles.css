@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://www.electricireland.com/images/folder/blog/keys.jpg?sfvrsn=68e0b00d_2");
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    color:maroon;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 2000px;
+    height: 500px;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+}
