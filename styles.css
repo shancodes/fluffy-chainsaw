@@ -73,3 +73,16 @@ input[type=number] {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  .result {
+    margin: 10;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    -ms-transform: translate(-20%, -50%);
+    transform: translate(-20%, -50%);
+    color: maroon;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration:solid;
+  }

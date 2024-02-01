@@ -6,6 +6,5 @@ function calculateMortgagePayment(){
     let mortgageAmount = (amount * interestRate * Math.pow(1 + interestRate,term)) / (Math.pow(1+interestRate,term)-1);
 
    let resultElement = document.getElementById('result');
-   resultElement.innerHTML = `<h2>Result</h2>`;
-   resultElement.innerHTML += `<p> Mortgage Payment: $ ${mortgageAmount.toFixed(2)} </p>`; 
+   resultElement.innerHTML = `<p> Mortgage Payment: $ ${mortgageAmount.toFixed(2)} </p>`; 
 }
